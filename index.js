@@ -30,7 +30,7 @@ async function gsheet(client){
     
     const opt = {
         spreadsheetId: '', //enter your spreadsheet api
-        range: 'B1:J25'    //from which to which column
+        range: 'B1:J25'    //from which to which column & row
     }
 
     data = await gsApi.spreadsheets.values.get(opt);
